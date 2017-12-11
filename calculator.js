@@ -8,11 +8,13 @@ function d(val) {
 
 // Type numbers and operators
 function v(val) {
+		"use strict"; 
 		document.getElementById("d").value += val;
 }
 
 //Evaluate the equation
 function e() {
+		"use strict";
 		try {
 				d(eval(document.getElementById("d").value));
 		}
