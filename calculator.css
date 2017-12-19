@@ -3,7 +3,9 @@
 
 /* Calculator Box */
 .box {
-		background-color: #dfffe2;
+		background-image: url("color.jpg");
+		background-size: cover;
+		background-position: bottom;
 		height: 300px;
 		width: 250px;
 		border-radius: 10px;
